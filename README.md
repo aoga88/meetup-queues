@@ -28,7 +28,7 @@ Imagina que en cada pedido que se recibe necesitamos mandar un correo electróni
 El proceso es muy simple:
 
 1. Un programa va a escribir mensajes en el sistema de colas (Publisher).
-2. El sistema de colas los recibe (Broker).
+2. El sistema de colas los recibe, RabbitMQ en nuestro caso (Broker).
 3. Un segundo programa va a estar leyendo los mensajes(Consumer) y ejecutando alguna acción dependiendo del mensaje recibido.
 
 ### ¿Qué necesitamos?
